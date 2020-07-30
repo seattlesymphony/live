@@ -9,6 +9,7 @@
 
 .navbar {
   font-size: 16px;
+  margin-bottom: 0px;
 }
 
 .navbar.is-spaced {
@@ -90,7 +91,7 @@ a.navbar-item {
 }
 
 .buttons .button:not(:last-child):not(.is-fullwidth) {
-  margin-right: .8px;
+  margin-right: 8px;
 }
 
 .buttons .button {
@@ -138,7 +139,7 @@ a.navbar-item {
   box-shadow: none;
   display: inline-flex;
   font-size: 16px;
-  height: 30px;
+  height: 40px;
   line-height: 1.5;
   position: relative;
 }
