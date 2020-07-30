@@ -3,12 +3,16 @@
 
 /* Custom Header */
 
+.sso-custom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 .navbar {
   font-size: 16px;
 }
 
 .navbar.is-spaced {
-  padding: 1rem 2rem;
+  padding: 16px 32px;
 }
 
 .navbar.is-black {
@@ -17,7 +21,7 @@
 }
 
 .navbar {
-  min-height: 3.25rem;
+  min-height: 52px;
   align-items: stretch;
   display: flex;
 }
@@ -31,7 +35,7 @@
   align-items: stretch;
   display: flex;
   flex-shrink: 0;
-  min-height: 3.25rem;
+  min-height: 52px;
 }
 
 .navbar-menu {
@@ -51,7 +55,7 @@ a.navbar-item {
   align-items: center;
   display: flex;
   line-height: 1.5;
-  padding: 0.5rem 0.75rem;
+  padding: 8px 12px;
   position: relative;
 }
 
@@ -82,15 +86,15 @@ a.navbar-item {
 }
 
 .buttons:last-child {
-  margin-bottom: -0.5rem;
+  margin-bottom: -8px;
 }
 
 .buttons .button:not(:last-child):not(.is-fullwidth) {
-  margin-right: .5rem;
+  margin-right: .8px;
 }
 
 .buttons .button {
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .button.is-primary {
@@ -109,10 +113,10 @@ a.navbar-item {
     border-width: 1px;
     cursor: pointer;
     justify-content: center;
-    padding-bottom: calc(0.5em - 1px);
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: calc(0.5em - 1px);
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
     text-align: center;
     white-space: nowrap;
 }
@@ -134,12 +138,20 @@ a.navbar-item {
   box-shadow: none;
   display: inline-flex;
   font-size: 16px;
-  height: 2.5em;
+  height: 30px;
   line-height: 1.5;
   position: relative;
 }
 
 /* Template Overrides */
+#bcg-main-header {
+    display: none;
+}
+
+.site-container .main-header, .main-header-logo-container {
+    height: 0px;
+}
+
 body {
   font-family: 'Proxima Nova', sans-serif !important;
 }
