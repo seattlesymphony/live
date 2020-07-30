@@ -1,0 +1,39 @@
+/* Import Brand Fonts */
+@import url("https://use.typekit.net/wyg0qgn.css");
+
+/* Custom Header */
+
+
+/* Template Overrides */
+body {
+  font-family: 'Proxima Nova', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Proxima Nova', sans-serif !important;
+}
+
+.main-nav a {
+  font-size: 16px !important;
+}
+
+img.bc-image-loader {
+  animation: none !important;
+}
+
+.video-grid-title {
+  font-size: 16px !important;
+}
+
+/* Remove InPlayer Branding */
+#inplayer-branded {
+  display: none;
+}
+
+.inplayer-guest-footer span span {
+  display: none;
+}
+
+.inplayer-guest-footer span span:before {
+  display: none;
+}

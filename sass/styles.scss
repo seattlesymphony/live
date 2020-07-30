@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+// Import brand font-size
+@import url("https://use.typekit.net/wyg0qgn.css");
+
+// Set brand colors
+$pink: #ec008c;
+$purple: #7d5aa1;
+
+// Update Bulma's global variables
+$primary: $pink;
+$family-sans-serif: "Proxima Nova", sans-serif;
+
+// Import components from Bulma
+@import "../node_modules/bulma/sass/components/navbar.sass";
