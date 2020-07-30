@@ -3,6 +3,135 @@
 
 /* Custom Header */
 
+.navbar {
+  font-size: 16px;
+}
+
+.navbar.is-spaced {
+  padding: 1rem 2rem;
+}
+
+.navbar.is-black {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.navbar {
+  min-height: 3.25rem;
+  align-items: stretch;
+  display: flex;
+}
+
+.navbar, .navbar-menu, .navbar-start, .navbar-end {
+  align-items: stretch;
+  display: flex;
+}
+
+.navbar-brand {
+  align-items: stretch;
+  display: flex;
+  flex-shrink: 0;
+  min-height: 3.25rem;
+}
+
+.navbar.is-black .navbar-brand > .navbar-item, .navbar.is-black .navbar-brand .navbar-link {
+  color: #fff;
+}
+
+.navbar-item, .navbar-link {
+  align-items: center;
+  display: flex;
+  line-height: 1.5;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+}
+
+.navbar-item {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-start {
+  justify-content: flex-start;
+  margin-right: auto;
+}
+
+.navbar-end {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.navbar.is-spaced .navbar-start, .navbar.is-spaced .navbar-end {
+  align-items: center;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.buttons:last-child {
+  margin-bottom: -0.5rem;
+}
+
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+  margin-right: .5rem;
+}
+
+.buttons .button {
+  margin-bottom: 0.5rem;
+}
+
+.button.is-primary {
+  background-color: #ec008c;
+  color: #fff;
+  border-color: transparent
+}
+
+.button.is-white.is-outlined {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.button {
+    border-width: 1px;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.button, .input, .textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+      border-top-color: transparent;
+      border-top-width: 1px;
+      border-right-color: transparent;
+      border-right-width: 1px;
+      border-bottom-color: transparent;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-width: 1px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  position: relative;
+}
 
 /* Template Overrides */
 body {
