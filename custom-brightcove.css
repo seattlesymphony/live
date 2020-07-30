@@ -34,7 +34,16 @@
   min-height: 3.25rem;
 }
 
+.navbar-menu {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
 .navbar.is-black .navbar-brand > .navbar-item, .navbar.is-black .navbar-brand .navbar-link {
+  color: #fff;
+}
+
+a.navbar-item {
   color: #fff;
 }
 
@@ -49,10 +58,6 @@
 .navbar-item {
   flex-grow: 0;
   flex-shrink: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 .navbar-start {
@@ -112,7 +117,7 @@ a {
     white-space: nowrap;
 }
 
-.button, .input, .textarea {
+.button {
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
@@ -125,9 +130,10 @@ a {
       border-bottom-width: 1px;
       border-left-color: transparent;
       border-left-width: 1px;
+  border-radius: 4px;
   box-shadow: none;
   display: inline-flex;
-  font-size: 1rem;
+  font-size: 16px;
   height: 2.5em;
   line-height: 1.5;
   position: relative;
@@ -152,6 +158,10 @@ img.bc-image-loader {
 
 .video-grid-title {
   font-size: 16px !important;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 /* Remove InPlayer Branding */
