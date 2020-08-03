@@ -179,7 +179,7 @@ a {
 
 /* Remove InPlayer Branding */
 #inplayer-branded {
-  display: none;
+  display: none !important;
 }
 
 .inplayer-guest-footer span span {
