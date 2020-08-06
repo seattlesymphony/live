@@ -161,6 +161,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Proxima Nova', sans-serif !important;
 }
 
+.home-carousel-description, .video-grid-description {
+  font-family: 'Proxima Nova', sans-serif !important;
+}
+
 .main-nav a {
   font-size: 16px !important;
 }
@@ -177,7 +181,7 @@ a {
   text-decoration: none !important;
 }
 
-/* Remove InPlayer Branding */
+/* InPlayer Overrides */
 #inplayer-branded {
   display: none !important;
 }
@@ -188,4 +192,17 @@ a {
 
 .inplayer-guest-footer span span:before {
   display: none;
+}
+
+.video-js button {
+    background-color: #ec008c !important;
+    font-family: 'Proxima Nova', sans-serif !important;
+    border-radius: 4px !important;
+}
+
+.video-js button:hover {
+    background-color: #fff !important;
+    color: #ec008c !important;
+    font-family: 'Proxima Nova', sans-serif !important;
+    border-radius: 4px !important;
 }

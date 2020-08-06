@@ -1,17 +1,4 @@
-<header>
-  <!---div class="notification mb-0 py-0 px-0">
-    <nav id="navbar" class="navbar" role="navigation" aria-label="secondary navigation">
-      <div id="navMenu" class="navbar-menu">
-        <div class="navbar-start">
-        </div>
-        <div class="navbar-end">
-          <a class="navbar-item" href="/">Seattle Symphony</a>
-          <a class="navbar-item" href="/">Benaroya Hall</a>
-          <a class="navbar-item" href="/">Recordings</a>
-        </div>
-      </div>
-    </nav>
-  </div--->
+<header class="sso-custom">
   <nav id="navbar" class="navbar is-black is-spaced is-transparent" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
@@ -25,19 +12,19 @@
     </div>
     <div id="navMenu" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="/">Browse</a>
-        <a class="navbar-item" href="/">Live</a>
-        <a class="navbar-item" href="/">Replay</a>
-        <a class="navbar-item" href="/">Family</a>
-        <a class="navbar-item" href="/">Interviews</a>
-        <a class="navbar-item" href="/">Donate</a>
+        <a class="navbar-item" href="/category/videos/live">Live</a>
+        <a class="navbar-item" href="/category/videos/replay">Replay</a>
+        <a class="navbar-item" href="/category/videos/family">Family</a>
+        <a class="navbar-item" href="/category/videos/interviews">Interviews</a>
+        <a class="navbar-item" href="https://seattlesymphony.org/give">Donate</a>
       </div>
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-primary" href="/">Start Watching</a>
-            <a class="button is-white is-outlined" href="/">Sign In</a>
+            <button id="register-button" class="button is-primary" type="button" name="button">Start Watching</button>
+            <button id="login-button" class="button is-white is-outlined" type="button" name="button">Sign In</button>
           </div>
+        </div>
       </div>
     </div>
   </nav>

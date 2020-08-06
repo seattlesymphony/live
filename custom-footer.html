@@ -1,0 +1,19 @@
+<div id="inplayer-111402"></div>
+
+<script type="text/javascript">
+  var paywall = new InplayerPaywall('1e87268a-4dd7-46ef-a39f-3a8e193f7173', [{
+        id: 111402,
+        options: {
+            brandingId: 1753
+
+  var paywall = new InplayerPaywall('1e87268a-4dd7-46ef-a39f-3a8e193f7173',
+
+  document.getElementById("login-button").addEventListener("click", () => paywall.showPaywall());
+  paywall.on("authenticated", () => document.getElementById("login-button").style.display = "none");
+
+  document.getElementById("register-button").addEventListener("click", () => paywall.showPaywall({ registerFirst: true }));
+  paywall.on("authenticated", () => document.getElementById("register-button").style.display = "none");
+
+  paywall.on("logout", () => location.reload());
+
+</script>
