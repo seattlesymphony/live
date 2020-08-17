@@ -3386,6 +3386,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar-dropdown a.navbar-link:hover {
   color: #ec008c !important; }
 
+::selection {
+  background: #ec008c;
+  color: #fff;
+  text-shadow: none; }
+
 #bcg-main-header {
   display: none; }
 

@@ -55,6 +55,12 @@ $navbar-item-hover-color: $primary !default;
   color: $primary !important;
 }
 
+::selection {
+    background: #ec008c;
+    color: #fff;
+    text-shadow: none;
+}
+
 // Template Overrides
 #bcg-main-header {
     display: none;
