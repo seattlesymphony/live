@@ -1,13 +1,6 @@
 <footer class="sso-custom">
   <nav id="navbar" class="navbar is-black is-spaced is-transparent" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div id="navMenu" class="navbar-menu">
+    <div class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href="/faq">FAQs</a>
         <a class="navbar-item" href="https://support.inplayer.com/">Support</a>
@@ -15,19 +8,35 @@
         <a class="navbar-item" href="https://www.seattlesymphony.org/about/termsofuse">Terms of Use</a>
         <a class="navbar-item" href="https://www.seattlesymphony.org/about/administration/contact">Contact</a>
       </div>
-          </div>
-
+    </div>
+  </nav>
 </footer>
 
 <script type="text/javascript">
-  var paywall = new InplayerPaywall('1e87268a-4dd7-46ef-a39f-3a8e193f7173',
+  document.addEventListener('DOMContentLoaded', () => {
 
-  document.getElementById("login-button").addEventListener("click", () => paywall.showPaywall());
-  paywall.on("authenticated", () => document.getElementById("login-button").style.display = "none");
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-  document.getElementById("register-button").addEventListener("click", () => paywall.showPaywall({ registerFirst: true }));
-  paywall.on("authenticated", () => document.getElementById("register-button").style.display = "none");
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
 
-  paywall.on("logout", () => location.reload());
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
 
 </script>
