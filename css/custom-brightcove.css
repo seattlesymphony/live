@@ -3380,10 +3380,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar.is-black .navbar-start > a.navbar-item:hover {
   color: #ec008c !important; }
 
-.navbar-dropdown, .navbar-link a {
+.navbar-dropdown .navbar-link a {
   color: #4a4a4a; }
 
-.navbar-dropdown, a.navbar-link:hover {
+.navbar-dropdown a.navbar-link:hover {
   color: #ec008c !important; }
 
 #bcg-main-header {

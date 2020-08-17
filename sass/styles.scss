@@ -47,11 +47,11 @@ $navbar-item-hover-color: $primary !default;
   color: $primary !important;
 }
 
-.navbar-dropdown, .navbar-link a {
+.navbar-dropdown .navbar-link a {
   color: #4a4a4a;
 }
 
-.navbar-dropdown, a.navbar-link:hover {
+.navbar-dropdown a.navbar-link:hover {
   color: $primary !important;
 }
 
