@@ -3372,6 +3372,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   float: none;
   padding: 0px; }
 
+.navbar-item,
+.navbar-link {
+  color: #fff; }
+
 #bcg-main-header {
   display: none; }
 

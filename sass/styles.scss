@@ -37,6 +37,10 @@ $family-sans-serif: "Proxima Nova", sans-serif;
     padding: 0px;
 }
 
+.navbar-item, .navbar-link {
+  color: #fff;
+}
+
 // Template Overrides
 #bcg-main-header {
     display: none;
