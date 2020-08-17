@@ -21,10 +21,32 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <button id="register-button" class="button is-primary" type="button" name="button">Start Watching</button>
-            <button id="login-button" class="button is-white is-outlined" type="button" name="button">Sign In</button>
+            <a id="custom-register" class="button is-primary" type="button" name="button">Start Watching</a>
+            <a id="custom-login" class="button is-white is-outlined" type="button" name="button">Sign In</a>
           </div>
         </div>
+        <div id="custom-account" class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            My Account
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-link inplayer-paywall-account">
+              My Details
+            </a>
+            <a class="navbar-link inplayer-paywall-transactions">
+              Purchases
+            </a>
+            <a class="navbar-link inplayer-paywall-ccm">
+              Card Details
+            </a>
+            <a class="navbar-link inplayer-paywall-password">
+              Change Password
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-link inplayer-paywall-logout">
+              Logout
+            </a>
+          </div>
       </div>
     </div>
   </nav>
