@@ -32,6 +32,11 @@ $family-sans-serif: "Proxima Nova", sans-serif;
   margin-bottom: 0px !important;
 }
 
+.sso-custom .navbar-brand {
+    float: none;
+    padding: 0px;
+}
+
 // Template Overrides
 #bcg-main-header {
     display: none;

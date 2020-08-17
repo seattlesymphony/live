@@ -3368,6 +3368,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar {
   margin-bottom: 0px !important; }
 
+.sso-custom .navbar-brand {
+  float: none;
+  padding: 0px; }
+
 #bcg-main-header {
   display: none; }
 
