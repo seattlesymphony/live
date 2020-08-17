@@ -3377,6 +3377,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar-link {
   color: #fff; }
 
+.navbar.is-black .navbar-start > a.navbar-item:hover {
+  color: #ec008c !important; }
+
 #bcg-main-header {
   display: none; }
 
@@ -3406,7 +3409,8 @@ a {
 
 .section-title {
   font-size: 24px;
-  text-transform: unset; }
+  text-transform: unset;
+  letter-spacing: 1px; }
 
 .bcg-video-detail-description p {
   font-family: 'Proxima Nova', sans-serif !important; }

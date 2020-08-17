@@ -43,6 +43,10 @@ $navbar-item-hover-color: $primary !default;
   color: #fff;
 }
 
+.navbar.is-black .navbar-start > a.navbar-item:hover {
+  color: $primary !important;
+}
+
 // Template Overrides
 #bcg-main-header {
     display: none;
@@ -83,6 +87,7 @@ a {
 .section-title {
   font-size: 24px;
   text-transform: unset;
+  letter-spacing: 1px;
 }
 
 .bcg-video-detail-description p {
