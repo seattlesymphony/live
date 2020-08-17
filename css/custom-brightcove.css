@@ -2207,7 +2207,7 @@ a.navbar-item,
   border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
 
 .navbar {
-  border-bottom: 0px !important; }
+  margin-bottom: 0px !important; }
 
 #bcg-main-header {
   display: none; }
