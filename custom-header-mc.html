@@ -1,0 +1,84 @@
+<header class="sso-custom">
+  <nav id="navbar" class="navbar is-black is-spaced is-transparent" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        Seattle Symphony Live
+      </a>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/category/videos/live">Live</a>
+        <a class="navbar-item" href="/category/videos/replay">Replay</a>
+        <a class="navbar-item" href="/category/videos/family">Families & Community</a>
+        <a class="navbar-item" href="/category/videos/interviews">Interviews</a>
+        <a class="navbar-item" href="https://www.seattlesymphony.org/watch-listen/recordings">Recordings</a>
+
+<style>
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ec008c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 5px 5px 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+</style>
+
+<div class="dropdown">
+  <button class="dropbtn">About<span class="caret"></span></button>
+  <div class="dropdown-content">
+    <a href="https://www.seattlesymphony.org/">Seattle Symphony</a>
+    <a href="https://www.seattlesymphony.org/BenaroyaHall">Benaroya Hall</a>
+  </div>
+</div>
+
+        <a class="navbar-item" href="https://seattlesymphony.org/give">Donate</a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <button id="register-button" class="button is-primary" type="button" name="button">Start Watching</button>
+            <button id="login-button" class="button is-white is-outlined" type="button" name="button">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
