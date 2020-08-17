@@ -10,6 +10,7 @@ $purple: #7d5aa1;
 // Update Bulma's global variables
 $primary: $pink;
 $family-sans-serif: "Proxima Nova", sans-serif;
+$navbar-item-hover-color: $primary !default;
 
 // Import components from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -21,8 +22,6 @@ $family-sans-serif: "Proxima Nova", sans-serif;
 @import "../node_modules/bulma/sass/components/menu.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/helpers/_all.sass";
-
-$navbar-item-hover-color: $primary !default;
 
 // Overrides
 
