@@ -3435,5 +3435,5 @@ a {
   font-family: 'Proxima Nova', sans-serif !important;
   border-radius: 4px !important; }
 
-.bcg-video-container h2, .bcg-video-container h4 {
+#inplayer-bc-plugin-preview h2, #inplayer-bc-plugin-preview h4 {
   display: none !important; }
