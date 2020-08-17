@@ -86,6 +86,10 @@ a {
   text-transform: unset;
 }
 
+.bcg-video-detail-description p {
+  font-family: inherit;
+}
+
 // InPlayer Overrides
 #inplayer-branded {
   display: none !important;
