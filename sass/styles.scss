@@ -36,6 +36,7 @@ $navbar-item-hover-color: $primary !default;
 .sso-custom .navbar-brand {
     float: none;
     padding: 0px;
+    height: unset;
 }
 
 .navbar-item, .navbar-link {
