@@ -2,15 +2,16 @@
   "name": "sso-streaming",
   "version": "1.0.0",
   "description": "custom css and html for seattle symphony streaming portal",
-  "main": "sass/mystyles.scss",
+  "main": "sass/styles.scss",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "bulma": "^0.9.0",
     "node-sass": "^4.14.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/custom-brightcove.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
 }
