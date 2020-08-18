@@ -1,20 +1,4 @@
-var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
-  {
-    id: 111402,
-    options: {
-      brandingId: 1753,
-      noPreview: true,
-      noInject: true,
-    }
-  }
-  {
-    external: {
-      type: 'brightcove',
-      id: 6173768423001,
-  }
-  }], {
-    hideUserMenu: true
-  });
+var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173");
 
   document.getElementById("custom-login").addEventListener("click", () => {
     paywall.showPaywall({
