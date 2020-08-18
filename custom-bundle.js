@@ -43,15 +43,13 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
 
   var authStatus = new paywall.isAuthenticated();
 
-  if(authStatus){
+  if(authStatus===true){
 
       document.getElementById("custom-login").style.display = "none";
       document.getElementById("custom-register").style.display = "none";
       document.getElementById("custom-account").style.display = "flex";
     }
   });
-
-  paywall.on("logout", () => location.reload());
 
   // Open and close mobile navmenu
 
