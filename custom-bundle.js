@@ -15,23 +15,25 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
       asset: {
         assetId: 111402,
       },
+      hideUserMenu: true
     });
   });
+
+  paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
+
+  paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "flex");
 
   document.getElementById("custom-register").addEventListener("click", () => {
     paywall.showPaywall({
       asset: {
         assetId: 111402,
       },
-      registerFirst: true
+      registerFirst: true,
+      hideUserMenu: true
     });
   });
 
   paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
-
-  paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
-
-  paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "flex");
 
   paywall.on("logout", () => location.reload());
 
