@@ -41,9 +41,9 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
 
   document.addEventListener('DOMContentLoaded', () => {
 
-  var authStatus = paywall.isAuthenticated();
+  var authStatus = new paywall.isAuthenticated();
 
-  if(authStatus === true){
+  if(authStatus){
 
       document.getElementById("custom-login").style.display = "none";
       document.getElementById("custom-register").style.display = "none";
