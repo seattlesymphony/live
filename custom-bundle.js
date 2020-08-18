@@ -10,6 +10,17 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
     hideUserMenu: true
   });
 
+  document.getElementById("custom-login").addEventListener("click", () => {
+    paywall.showPaywall({
+      asset: {
+        assetId: 111402,
+      },
+      hideUserMenu: true
+    });
+  });
+
+  paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
+
   document.getElementById("custom-register").addEventListener("click", () => {
     paywall.showPaywall({
       asset: {
@@ -20,18 +31,10 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
     });
   });
 
-  document.getElementById("custom-login").addEventListener("click", () => {
-    paywall.showPaywall({
-      asset: {
-        assetId: 111402,
-      },
-      hideUserMenu: true
-    });
-  });
-
   paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
-  paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
+
   paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "flex");
+
   paywall.on("logout", () => location.reload());
 
   // Check if the user is authenticated
@@ -40,7 +43,7 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
 
   var authStatus = new paywall.isAuthenticated();
 
-  if(authStatus===true){
+  if(authStatus == true){
 
       document.getElementById("custom-login").style.display = "none";
       document.getElementById("custom-register").style.display = "none";
