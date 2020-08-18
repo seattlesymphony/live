@@ -10,21 +10,21 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
     hideUserMenu: true
   });
 
-  document.getElementById("custom-login").addEventListener("click", () => {
-    paywall.showPaywall({
-      asset: {
-        assetId: 111402,
-      },
-      hideUserMenu: true
-    });
-  });
-
   document.getElementById("custom-register").addEventListener("click", () => {
     paywall.showPaywall({
       asset: {
         assetId: 111402,
       },
       registerFirst: true,
+      hideUserMenu: true
+    });
+  });
+
+  document.getElementById("custom-login").addEventListener("click", () => {
+    paywall.showPaywall({
+      asset: {
+        assetId: 111402,
+      },
       hideUserMenu: true
     });
   });
