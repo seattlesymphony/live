@@ -56,9 +56,11 @@ $navbar-item-hover-color: $primary !default;
 }
 
 ::selection {
-    background: #ec008c;
-    color: #fff;
-    text-shadow: none;
+    background: #ec008c !important;
+}
+
+#custom-account {
+  display: none;
 }
 
 // Template Overrides
