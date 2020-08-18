@@ -9,8 +9,8 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173", [
   }
   {
     external: {
-      type: brightcove,
-      id: 6173768423001, // 'OVP Video ID'
+      type: 'brightcove',
+      id: 6173768423001,
   }
   }], {
     hideUserMenu: true
