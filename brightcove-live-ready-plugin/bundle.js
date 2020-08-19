@@ -10,7 +10,7 @@ videojs.registerPlugin('liveCustomError', function() {
     overlays: [{
       "start": "loadstart",
       "end": "ended",
-      "content": "<img src='https://seattlesymphony.canto.com/direct/image/5jhh4cf7b524pchl98mv2lj04e/6ZZoVHHAdZyiIbW0qb-mfl9WqXE/original?content-type=image%2Fpng&name=1920_Video_Overlay_1920x10803.png'>"
+      "content": "<img src='https://seattlesymphony.canto.com/direct/image/5jhh4cf7b524pchl98mv2lj04e/6ZZoVHHAdZyiIbW0qb-mfl9WqXE/original'>"
     }]
   });
 
