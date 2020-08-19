@@ -102,7 +102,7 @@ $link: $white !default;
   color: #fff;
 }
 
-// Template Overrides
+// Brightcove Template Overrides
 #bcg-main-header {
     display: none;
 }
@@ -147,6 +147,10 @@ a {
 
 .bcg-video-detail-description p {
   font-family: 'Proxima Nova', sans-serif !important;
+}
+
+.vjs-error-display {
+    display: none !important;
 }
 
 // InPlayer Overrides
