@@ -89,9 +89,6 @@ $link: $white !default;
 
 .sso-custom-footer {
   background: #000;
-}
-
-.custom-footer-menu {
   padding: 1rem 2rem;
 }
 
@@ -101,6 +98,10 @@ $link: $white !default;
 
 .custom-footer-link {
   padding: 0.5rem 0.75rem;
+}
+
+.custom-footer-link a {
+  color: #fff;
 }
 
 // Template Overrides

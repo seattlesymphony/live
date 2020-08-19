@@ -3400,9 +3400,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     color: #fff !important; } }
 
 .sso-custom-footer {
-  background: #000; }
-
-.custom-footer-menu {
+  background: #000;
   padding: 1rem 2rem; }
 
 .custom-footer-li {
@@ -3410,6 +3408,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .custom-footer-link {
   padding: 0.5rem 0.75rem; }
+
+.custom-footer-link a {
+  color: #fff; }
 
 #bcg-main-header {
   display: none; }
