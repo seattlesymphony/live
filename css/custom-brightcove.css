@@ -3362,16 +3362,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .is-invisible-fullhd {
     visibility: hidden !important; } }
 
-.sso-custom {
+.sso-custom-header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
 
-.navbar {
-  margin-bottom: 0px !important; }
-
-.sso-custom .navbar-brand {
+.sso-custom-header .navbar-brand {
   float: none;
   padding: 0px;
   height: unset; }
+
+.navbar {
+  margin-bottom: 0px !important; }
 
 .navbar-item,
 .navbar-link {
@@ -3398,6 +3398,18 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 @media only screen and (max-width: 768px) {
   .navbar-dropdown a.navbar-item {
     color: #fff !important; } }
+
+.sso-custom-footer {
+  background: #000; }
+
+.custom-footer-menu {
+  padding: 1rem 2rem; }
+
+.custom-footer-li {
+  float: left; }
+
+.sso-custom-footer a.navbar-item:hover {
+  background: initial; }
 
 #bcg-main-header {
   display: none; }

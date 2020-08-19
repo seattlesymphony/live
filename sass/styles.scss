@@ -36,18 +36,19 @@ $link-active-border: $primary !default;
 
 $link: $white !default;
 
-.sso-custom {
+.sso-custom-header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+.sso-custom-header .navbar-brand {
+    float: none;
+    padding: 0px;
+    height: unset;
 }
 
 .navbar {
   margin-bottom: 0px !important;
-}
-
-.sso-custom .navbar-brand {
-    float: none;
-    padding: 0px;
-    height: unset;
 }
 
 .navbar-item, .navbar-link {
@@ -84,6 +85,22 @@ $link: $white !default;
     color: #fff !important;
   }
 
+}
+
+.sso-custom-footer {
+  background: #000;
+}
+
+.custom-footer-menu {
+  padding: 1rem 2rem;
+}
+
+.custom-footer-li {
+  float: left;
+}
+
+.sso-custom-footer a.navbar-item:hover {
+  background: initial;
 }
 
 // Template Overrides
