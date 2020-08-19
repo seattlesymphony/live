@@ -3395,6 +3395,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar-link:not(.is-arrowless)::after {
   color: #fff; }
 
+@media only screen and (max-width: 768px) {
+  .navbar-dropdown a.navbar-item {
+    color: #fff !important; } }
+
 #bcg-main-header {
   display: none; }
 

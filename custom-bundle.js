@@ -23,7 +23,7 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173");
 
   paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
 
-  paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "flex");
+  paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "block");
 
   paywall.on("logout", () => location.reload());
 
