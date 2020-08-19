@@ -12,6 +12,15 @@ $primary: $pink;
 $family-sans-serif: "Proxima Nova", sans-serif;
 $navbar-item-hover-color: $primary !default;
 
+$link-hover: $primary !default;
+$link-hover-border: $primary !default;
+
+$link-focus: $primary !default;
+$link-focus-border: $primary !default;
+
+$link-active: $primary !default;
+$link-active-border: $primary !default;
+
 // Import components from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
@@ -24,6 +33,8 @@ $navbar-item-hover-color: $primary !default;
 @import "../node_modules/bulma/sass/helpers/_all.sass";
 
 // Overrides
+
+$link: $white !default;
 
 .sso-custom {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
