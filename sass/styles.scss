@@ -47,7 +47,7 @@ $navbar-item-hover-color: $primary !default;
   color: $primary !important;
 }
 
-.navbar-dropdown a.navbar-link {
+.navbar-dropdown a.navbar-item {
     color: #4a4a4a !important;
 }
 
@@ -57,7 +57,7 @@ $navbar-item-hover-color: $primary !default;
 
 ::selection {
     background: #ec008c !important;
-}
+} 
 
 #custom-account {
   display: none;
