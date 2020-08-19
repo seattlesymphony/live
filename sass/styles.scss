@@ -63,6 +63,10 @@ $navbar-item-hover-color: $primary !default;
   display: none;
 }
 
+.navbar-link:not(.is-arrowless)::after {
+  color: #fff;
+}
+
 // Template Overrides
 #bcg-main-header {
     display: none;

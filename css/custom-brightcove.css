@@ -3392,6 +3392,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 #custom-account {
   display: none; }
 
+.navbar-link:not(.is-arrowless)::after {
+  color: #fff; }
+
 #bcg-main-header {
   display: none; }
 
