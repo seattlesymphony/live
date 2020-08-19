@@ -3408,8 +3408,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .custom-footer-li {
   float: left; }
 
-.sso-custom-footer a.navbar-item:hover {
-  background: initial; }
+.custom-footer-link {
+  padding: 0.5rem 0.75rem; }
 
 #bcg-main-header {
   display: none; }

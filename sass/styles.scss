@@ -99,8 +99,8 @@ $link: $white !default;
   float: left;
 }
 
-.sso-custom-footer a.navbar-item:hover {
-  background: initial;
+.custom-footer-link {
+  padding: 0.5rem 0.75rem;
 }
 
 // Template Overrides
