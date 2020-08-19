@@ -89,7 +89,8 @@ $link: $white !default;
 
 .sso-custom-footer {
   background: #000;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
+  display: flex;
 }
 
 .custom-footer-li {
@@ -98,9 +99,6 @@ $link: $white !default;
 
 .custom-footer-link {
   padding: 0.5rem 0.75rem;
-}
-
-.custom-footer-link a {
   color: #fff;
 }
 
