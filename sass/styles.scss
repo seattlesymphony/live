@@ -41,11 +41,23 @@ $link: $white !default;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-
 .sso-custom-header .navbar-brand {
     float: none;
     padding: 0px;
     height: unset;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.brand-bold {
+  font-weight: 700;
+}
+
+.brand-pink {
+  color: $primary;
 }
 
 .navbar {

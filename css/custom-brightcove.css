@@ -3370,6 +3370,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: 0px;
   height: unset; }
 
+.navbar-brand {
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.brand-bold {
+  font-weight: 700; }
+
+.brand-pink {
+  color: #ec008c; }
+
 .navbar {
   margin-bottom: 0px !important; }
 
