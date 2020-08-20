@@ -3407,7 +3407,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 @media only screen and (max-width: 768px) {
   .navbar-dropdown a.navbar-item {
-    color: #fff !important; } }
+    color: #fff !important; }
+  .custom-topbar {
+    display: none; } }
 
 .sso-custom-footer {
   background: #000;
@@ -3415,10 +3417,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.08); }
 
+.custom-topbar {
+  padding: 1rem 2rem; }
+
 .custom-footer-li {
   float: left; }
 
-.custom-footer-link {
+.custom-header-li {
+  float: right; }
+
+.custom-header-link, .custom-footer-link {
   padding: 0.5rem 0.75rem;
   color: #fff; }
 

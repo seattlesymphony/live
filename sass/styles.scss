@@ -98,6 +98,10 @@ $link: $white !default;
     color: #fff !important;
   }
 
+  .custom-topbar {
+    display: none;
+  }
+
 }
 
 .sso-custom-footer {
@@ -107,11 +111,19 @@ $link: $white !default;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.custom-topbar {
+  padding: 1rem 2rem;
+}
+
 .custom-footer-li {
   float: left;
 }
 
-.custom-footer-link {
+.custom-header-li {
+  float: right;
+}
+
+.custom-header-link, .custom-footer-link {
   padding: 0.5rem 0.75rem;
   color: #fff;
 }
