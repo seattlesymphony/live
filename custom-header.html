@@ -2,35 +2,7 @@
 
 <script type="text/javascript" src="https://assets.inplayer.com/paywall/latest/paywall.min.js"></script>
 
-<script type="text/javascript">
-  var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173",
-       [
-        {
-          id: 111402,
-          options: {
-              noPreview: true,
-              noInject: true
-          }
-        }]
-      );
-
-  // Check if the user is authenticated first
-
-  document.addEventListener('DOMContentLoaded', () => {
-
-  var authStatus = new paywall.isAuthenticated();
-
-  if(authStatus == true){
-
-      document.getElementById("custom-login").style.display = "none";
-      document.getElementById("custom-register").style.display = "none";
-      document.getElementById("custom-account").style.display = "block";
-      document.getElementById("inplayer-menu-content").style.display = "none";
-    }
-  });
-</script>
-
-  <div class="custom-topbar">
+  <!---div class="custom-topbar">
     <ul class="custom-top-menu">
       <li class="custom-header-li">
         <a class="custom-header-link" href="https://www.seattlesymphony.org">Seattle Symphony</a>
@@ -42,7 +14,7 @@
         <a class="custom-header-link" href="https://www.seattlesymphony.org/watch-listen/recordings">Recordings</a>
       </li>
     </ul>
-  </div>
+  </div!--->
   <nav id="navbar" class="navbar is-black is-spaced is-transparent" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">

@@ -9,7 +9,6 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173",
       }]
     );
 
-
 // Check if the user is authenticated first
 
 document.addEventListener('DOMContentLoaded', () => {
