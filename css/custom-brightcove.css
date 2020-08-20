@@ -3418,7 +3418,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   border-top: 1px solid rgba(255, 255, 255, 0.08); }
 
 .custom-topbar {
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem;
+  background-color: #0e0f10; }
 
 .custom-footer-li {
   float: left; }
