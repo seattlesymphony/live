@@ -3412,7 +3412,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .sso-custom-footer {
   background: #000;
   padding: 2rem 2rem;
-  display: flex; }
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.08); }
 
 .custom-footer-li {
   float: left; }
