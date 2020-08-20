@@ -117,12 +117,12 @@ $link: $white !default;
   display: flex;
 }
 
-.custom-footer-li {
-  float: left;
+.custom-top-menu {
+  margin-left: auto;
 }
 
-.custom-header-li {
-  float: right;
+.custom-header-li, .custom-footer-li {
+  float: left;
 }
 
 .custom-header-link, .custom-footer-link {

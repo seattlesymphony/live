@@ -3422,11 +3422,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #0e0f10;
   display: flex; }
 
-.custom-footer-li {
-  float: left; }
+.custom-top-menu {
+  margin-left: auto; }
 
-.custom-header-li {
-  float: right; }
+.custom-header-li, .custom-footer-li {
+  float: left; }
 
 .custom-header-link, .custom-footer-link {
   padding: 0.5rem 0.75rem;
