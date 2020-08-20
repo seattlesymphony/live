@@ -3419,7 +3419,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .custom-topbar {
   padding: 1rem 2rem;
-  background-color: #0e0f10; }
+  background-color: #0e0f10;
+  display: flex; }
 
 .custom-footer-li {
   float: left; }
