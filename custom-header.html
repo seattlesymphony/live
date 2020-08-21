@@ -2,19 +2,6 @@
 
 <script type="text/javascript" src="https://assets.inplayer.com/paywall/latest/paywall.min.js"></script>
 
-  <!---div class="custom-topbar">
-    <ul class="custom-top-menu">
-      <li class="custom-header-li">
-        <a class="custom-header-link" href="https://www.seattlesymphony.org">Seattle Symphony</a>
-      </li>
-      <li class="custom-header-li">
-        <a class="custom-header-link" href="https://www.seattlesymphony.org/BenaroyaHall">Benaroya Hall</a>
-      </li>
-      <li class="custom-header-li">
-        <a class="custom-header-link" href="https://www.seattlesymphony.org/watch-listen/recordings">Recordings</a>
-      </li>
-    </ul>
-  </div!--->
   <nav id="navbar" class="navbar is-black is-spaced is-transparent" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
@@ -31,7 +18,19 @@
         <a class="navbar-item" href="/category/videos/concerts">Concerts</a>
         <a class="navbar-item" href="/category/videos/family-community">Family & Community</a>
         <a class="navbar-item" href="/category/videos/interviews">Interviews</a>
-        <a class="navbar-item" href="https://www.seattlesymphony.org/give/donate">Donate</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Explore
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://www.seattlesymphony.org" target="_blank">Seattle Symphony</a>
+            <a class="navbar-item" href="https://www.seattlesymphony.org/BenaroyaHall" target="_blank">Benaroya Hall</a>
+            <a class="navbar-item" href="https://www.seattlesymphony.org/watch-listen/recordings" target="_blank">Recordings</a>
+          </div>
+        </div>
+
+        <a class="navbar-item" href="https://www.seattlesymphony.org/give" target="_blank">Give</a>
       </div>
       <div class="navbar-end">
         <div class="navbar-item">
@@ -40,7 +39,7 @@
             <a id="custom-login" class="button is-white is-outlined">Sign In</a>
           </div>
         </div>
-        <div id="custom-account" class="navbar-item has-dropdown is-hoverable">
+        <div id="custom-account" class="navbar-item has-dropdown is-hoverable is-arrowless">
           <a class="navbar-link">
             My Account
           </a>
@@ -64,7 +63,7 @@
   </nav>
 
   <div id="inplayer-111402" class="inplayer-paywall"></div>
-  
+
   <script type="text/javascript" src="https://andrewstiefel.github.io/sso-streaming-platform/custom-auth-check.js"></script>
 
 </header>

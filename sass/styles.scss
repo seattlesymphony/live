@@ -1,7 +1,11 @@
 @charset "utf-8";
 
-// Import brand font-size
+// Import Brand Font
 @import url("https://use.typekit.net/wyg0qgn.css");
+
+// Import Font Awesome
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 // Set brand colors
 $pink: #ec008c;
@@ -27,10 +31,11 @@ $link-active-border: $primary !default;
 @import "../node_modules/bulma/sass/base/_all.sass";
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/image.sass";
-@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/elements/icon.sass";
 @import "../node_modules/bulma/sass/components/dropdown.sass";
 @import "../node_modules/bulma/sass/components/menu.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
 @import "../node_modules/bulma/sass/helpers/_all.sass";
 
 // Overrides
@@ -151,6 +156,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Proxima Nova', sans-serif !important;
 }
 
+.bcg-home-carousel-container .home-carousel-next, .bcg-home-carousel-container .home-carousel-prev {
+  display: none;
+}
+
 .main-nav a {
   font-size: 16px !important;
 }
@@ -179,6 +188,10 @@ a {
 
 .vjs-error-display {
     display: none !important;
+}
+
+.site-container .video-grid-description {
+  display: block !important;
 }
 
 // InPlayer Overrides
