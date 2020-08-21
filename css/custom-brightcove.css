@@ -4555,6 +4555,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .custom-social-icons {
   text-align: right; }
 
+.custom-social-icons a {
+  color: #fff; }
+
 @media only screen and (max-width: 768px) {
   .custom-footer-menu, .custom-social-icons {
     text-align: center; } }
