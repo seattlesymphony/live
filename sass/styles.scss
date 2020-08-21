@@ -4,6 +4,7 @@
 @import url("https://use.typekit.net/wyg0qgn.css");
 
 // Import Font Awesome
+$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
@@ -112,7 +113,6 @@ $link: $white !default;
 .sso-custom-footer {
   background: #000;
   padding: 2rem 2rem;
-  display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
