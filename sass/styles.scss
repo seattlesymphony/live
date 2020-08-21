@@ -122,12 +122,26 @@ $link: $white !default;
 }
 
 .custom-header-li, .custom-footer-li {
-  float: left;
+  display: inline;
 }
 
 .custom-header-link, .custom-footer-link {
   padding: 0.5rem 0.75rem;
   color: #fff;
+}
+
+.custom-footer-menu {
+  text-align: left;
+}
+
+.custom-social-icons {
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-footer-menu, .custom-social-icons {
+    text-align: center;
+  }
 }
 
 // Brightcove Template Overrides
