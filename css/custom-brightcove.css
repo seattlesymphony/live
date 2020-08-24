@@ -4559,7 +4559,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #fff; }
 
 @media only screen and (max-width: 768px) {
-  .custom-footer-menu, .custom-social-icons {
+  .custom-footer-menu, .custom-social-icons, .custom-copyright {
     text-align: center; } }
 
 #bcg-main-header {
