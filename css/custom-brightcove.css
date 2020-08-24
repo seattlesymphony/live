@@ -182,7 +182,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Proxima Nova", sans-serif; }
+  font-family: "Proxima Nova", "Source Sans Pro," sans-serif; }
 
 code,
 pre {
@@ -4183,13 +4183,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Proxima Nova", sans-serif !important; }
+  font-family: "Proxima Nova", "Source Sans Pro," sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Proxima Nova", sans-serif !important; }
+  font-family: "Proxima Nova", "Source Sans Pro," sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Proxima Nova", sans-serif !important; }
+  font-family: "Proxima Nova", "Source Sans Pro," sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -4569,13 +4569,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   height: 0px; }
 
 body {
-  font-family: 'Proxima Nova', sans-serif !important; }
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Proxima Nova', sans-serif !important; }
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important; }
 
 .home-carousel-description, .video-grid-description {
-  font-family: 'Proxima Nova', sans-serif !important; }
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important; }
 
 .bcg-home-carousel-container .home-carousel-next, .bcg-home-carousel-container .home-carousel-prev {
   display: none; }
@@ -4598,7 +4598,7 @@ a {
   letter-spacing: 1px; }
 
 .bcg-video-detail-description p {
-  font-family: 'Proxima Nova', sans-serif !important; }
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important; }
 
 .vjs-error-display {
   display: none !important; }
@@ -4620,13 +4620,13 @@ a {
 
 #inplayer-bc-plugin-preview button {
   background-color: #ec008c !important;
-  font-family: 'Proxima Nova', sans-serif !important;
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
   border-radius: 4px !important; }
 
 #inplayer-bc-plugin-preview button:hover {
   background-color: #fff !important;
   color: #ec008c !important;
-  font-family: 'Proxima Nova', sans-serif !important;
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
   border-radius: 4px !important; }
 
 #inplayer-bc-plugin-preview h2, #inplayer-bc-plugin-preview h4 {

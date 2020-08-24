@@ -10,7 +10,7 @@ $black: #000;
 
 // Update Bulma's global variables
 $primary: $pink;
-$family-sans-serif: "Proxima Nova", sans-serif;
+$family-sans-serif: "Proxima Nova", "Source Sans Pro," sans-serif;
 $navbar-item-hover-color: $primary !default;
 
 $link-hover: $primary !default;
@@ -158,15 +158,15 @@ $link: $white !default;
 }
 
 body {
-  font-family: 'Proxima Nova', sans-serif !important;
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Proxima Nova', sans-serif !important;
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
 }
 
 .home-carousel-description, .video-grid-description {
-  font-family: 'Proxima Nova', sans-serif !important;
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
 }
 
 .bcg-home-carousel-container .home-carousel-next, .bcg-home-carousel-container .home-carousel-prev {
@@ -196,7 +196,7 @@ a {
 }
 
 .bcg-video-detail-description p {
-  font-family: 'Proxima Nova', sans-serif !important;
+  font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
 }
 
 .vjs-error-display {
@@ -226,14 +226,14 @@ a {
 
 #inplayer-bc-plugin-preview button {
     background-color: #ec008c !important;
-    font-family: 'Proxima Nova', sans-serif !important;
+    font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
     border-radius: 4px !important;
 }
 
 #inplayer-bc-plugin-preview button:hover {
     background-color: #fff !important;
     color: #ec008c !important;
-    font-family: 'Proxima Nova', sans-serif !important;
+    font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
     border-radius: 4px !important;
 }
 
