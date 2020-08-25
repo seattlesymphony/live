@@ -17,8 +17,6 @@
 
 // Expose the paywall with custom login and register buttons
 
-window.customDisplayPaywall = (paywall) => {
-
   document.getElementById("custom-login").addEventListener("click", () => {
     paywall.showPaywall({
       asset: {
@@ -43,8 +41,6 @@ window.customDisplayPaywall = (paywall) => {
   paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
   paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "block");
   paywall.on("logout", () => location.reload());
-
-};
 
 // Open and close mobile navmenu
 
