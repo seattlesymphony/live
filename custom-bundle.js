@@ -1,4 +1,4 @@
-// Check if the user is authenticated first
+// Check if the user is already authenticated
 
   window.checkAuthStatus = (paywall) => {
     var authStatus = false;
@@ -15,6 +15,33 @@
   paywall.on('logout', () => location.reload());
 
   };
+
+// Expose the paywall with custom login and register buttons
+
+document.getElementById("custom-login").addEventListener("click", () => {
+  paywall.showPaywall({
+    asset: {
+      assetId: 111402,
+    },
+    hideUserMenu: true
+  });
+});
+
+paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
+
+document.getElementById("custom-register").addEventListener("click", () => {
+  paywall.showPaywall({
+    asset: {
+      assetId: 111402,
+    },
+    registerFirst: true,
+    hideUserMenu: true
+  });
+});
+
+paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
+paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "block");
+paywall.on("logout", () => location.reload());
 
 // Open and close mobile navmenu
 
