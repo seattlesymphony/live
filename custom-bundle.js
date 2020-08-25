@@ -21,14 +21,7 @@ var paywall = new InplayerPaywall("1e87268a-4dd7-46ef-a39f-3a8e193f7173");
 
 // Hide register and login buttons after successful authentication
 
-  document.getElementById("custom-login").addEventListener("click", () => {
-    paywall.showPaywall({
-      asset: {
-        assetId: 111402,
-      },
-      hideUserMenu: true
-    });
-  });
+  document.getElementById("custom-login").addEventListener("click", () => paywall.showPaywall());
 
   paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
 
