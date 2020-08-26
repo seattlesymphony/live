@@ -18,33 +18,29 @@
 
 // Expose the paywall with custom login and register buttons
 
-window.customDisplayPaywall = (paywall) => {
-
   // Acess custom login button
 
-    document.getElementById("custom-login").addEventListener("click", () => paywall.showPaywall());
+  document.getElementById("custom-login").addEventListener("click", () => paywall.showPaywall());
 
-    paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
+  paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
 
   // Access custom register button
 
-    document.getElementById("custom-register").addEventListener("click", () => {
-      paywall.showPaywall({
-        asset: {
-          assetId: 111402,
-        },
-        registerFirst: true,
-        hideUserMenu: true
-      });
+  document.getElementById("custom-register").addEventListener("click", () => {
+    paywall.showPaywall({
+      asset: {
+        assetId: 111402,
+      },
+      registerFirst: true,
+      hideUserMenu: true
     });
+  });
 
-    paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
+  paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
 
-    paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "block");
+  paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "block");
 
-    paywall.on("logout", () => location.reload());
-
-};
+  paywall.on("logout", () => location.reload());
 
 // Open and close mobile navmenu
 
