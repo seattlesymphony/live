@@ -244,3 +244,15 @@ a {
 #inplayer-menu-content {
   display: none !important;
 }
+
+.inplayer-paywall .container {
+    width: initial;
+    margin-right: initial;
+    margin-left: initial;
+    padding-right: initial;
+    padding-left: initial; 
+}
+
+.inplayer-paywall .container::before {
+    display: none;
+}
