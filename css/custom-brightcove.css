@@ -4492,6 +4492,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-size: 20px;
   text-transform: uppercase; }
 
+.navbar-item img {
+  max-height: 50px; }
+
 .brand-bold {
   font-weight: 700; }
 
