@@ -4495,6 +4495,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar-item img {
   max-height: 50px; }
 
+.navbar-burger {
+  height: auto; }
+
 .brand-bold {
   font-weight: 700; }
 
