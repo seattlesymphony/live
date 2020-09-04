@@ -4616,7 +4616,7 @@ a {
   display: none !important; }
 
 #brandheader img {
-  display: none; }
+  display: none !important; }
 
 .inplayer-guest-footer span span {
   display: none; }
