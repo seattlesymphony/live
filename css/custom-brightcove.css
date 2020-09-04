@@ -4615,6 +4615,9 @@ a {
 #inplayer-branded {
   display: none !important; }
 
+#brandheader img {
+  display: none; }
+
 .inplayer-guest-footer span span {
   display: none; }
 
