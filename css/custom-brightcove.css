@@ -4630,6 +4630,9 @@ a {
 #inplayer-bc-plugin-preview button {
   background-color: #ec008c !important;
   font-family: 'Proxima Nova', 'Source Sans Pro', sans-serif !important;
+  font-size: 16px !important;
+  text-transform: uppercase;
+  padding: 10px 20px;
   border-radius: 4px !important; }
 
 #inplayer-bc-plugin-preview button:hover {
