@@ -62,7 +62,7 @@
 <script type="text/javascript" src="https://assets.inplayer.com/paywall/latest/paywall.min.js"></script>
 
 <div id="inplayer-111402" class="inplayer-paywall"></div>
-<script>
+<script type="text/javascript">
     var paywall = new InplayerPaywall('1e87268a-4dd7-46ef-a39f-3a8e193f7173', [{
         id: 111402,
         options: {
@@ -73,4 +73,61 @@
     }]);
 </script>
 
-<script type="text/javascript" src="https://andrewstiefel.github.io/sso-streaming-platform/custom-bundle.js"></script>
+<script type="text/javascript">
+
+    window.checkAuthStatus = (paywall) => {
+      var authStatus = false;
+
+      paywall.on('init', (e, { isAuthenticated }) => {
+       authStatus = isAuthenticated;
+    });
+
+    paywall.on('authenticated', () => document.getElementById('custom-login').style.display = 'none');
+    paywall.on('authenticated', () => document.getElementById('custom-register').style.display = 'none');
+    paywall.on('authenticated', () => document.getElementById('custom-account').style.display = 'block');
+    paywall.on("logout", () => location.reload());
+
+    };
+
+    document.getElementById("custom-login").addEventListener("click", () => paywall.showPaywall());
+
+    paywall.on("authenticated", () => document.getElementById("custom-login").style.display = "none");
+
+    document.getElementById("custom-register").addEventListener("click", () => {
+      paywall.showPaywall({
+        asset: {
+          assetId: 111402,
+        },
+        registerFirst: true,
+        hideUserMenu: true
+      });
+    });
+
+    paywall.on("authenticated", () => document.getElementById("custom-register").style.display = "none");
+
+    paywall.on("authenticated", () => document.getElementById("custom-account").style.display = "block");
+
+    paywall.on("logout", () => location.reload());
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    if ($navbarBurgers.length > 0) {
+
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+
+  });
+
+</script>
